@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* body{
+  background: linear-gradient(90deg,rgba(240, 241, 242, 1) 0%, rgba(197, 199, 199, 1) 50%, rgba(157, 161, 161, 1) 80%, rgba(168, 165, 165, 1) 100%);
+  overflow: hidden;
+} */
+
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
